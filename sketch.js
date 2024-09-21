@@ -1,15 +1,15 @@
 let currentText = 'hello';
 let bgMusic;
 
-function preload() {
-  bgMusic = loadSound('/sound/knockKnock.mp3');
-}
+// function preload() {
+//   bgMusic = loadSound('/sound/knockKnock.mp3');
+// }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
-  userStartAudio(); 
-  bgMusic.loop();
+  // userStartAudio(); 
+  // bgMusic.loop();
 }
 
 function draw() {
